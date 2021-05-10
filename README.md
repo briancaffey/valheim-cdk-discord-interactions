@@ -60,7 +60,7 @@ Turn off the `Public Bot` option and save changes.
 Get the bot token by clicking on `Click to Reveal Token`, and add this to `.env`:
 
 ```
-export BOT_ID=abc.xyz.123
+export BOT_TOKEN=abc.xyz.123
 ```
 
 Now go back to the `OAuth2` tab and select the `bot` and `applications.commands` permissions again, copy the link and open it. Select the server that you want to add this application to. You should see a captcha, and then a message that says `Authorized`. You should also see a message from your discord server that the bot has joined the server.
